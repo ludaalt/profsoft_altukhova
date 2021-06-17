@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'Gilroy-Bold'; 
+	src: url('./fonts/gilroy-bold.ttf'); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy-Bold', 'Arial', sans-serif;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.bg-gray {
+    background-color: #F6F6F6;
+}
+
+.section {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.main-nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.main-link {
+    color: #828282;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.main-link-active, 
+.main-link:hover {
+    color: #070707;
+}
+
+.name-section {
+    min-height: 550px;
+    padding: 30px 0;
+    background-image: url('./img/foto.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-size: 110% 75%;
+    margin-bottom: 70px;    
+}
+
+.name-section > div {
+    align-items: center;
+}
+
+.name {
+    max-width: 120px;
+}
+
+.person-description {
+    max-width: 160px; 
+}
+
+.lang {
+    transform: rotate(-90deg);    
+    margin-right: -30px;
+}
+
+.lang-button {
+    position: relative;    
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.lang-button:first-child:after {
+    position: absolute;
+    content: '|';
+    right: -5px;
+}
+
+.lang-button:hover,
+.lang-button-active {
+    color: #828282;
+}
+
+.about p {
+    margin: 30px auto;    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;   
+}
+
+.text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skils li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skils li h3 {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 30px;
+}
+
+.card-img {
+    order: -1;
+    max-width: 88px;
+    margin-bottom: 15px;
+}
+
+figure {
+    margin-top: 90px;
+}
+
+figcaption {
+    margin-top: 30px;
+}
+
+figure:hover  .figure-img  {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+.portfolio-link {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+footer .text {
+    margin: 0 auto;
+    max-width: 280px;
+}
+
+.footer-button {
+    margin: 30px auto 85px;    
+    background-color: #000;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-button:hover,
+.footer-link:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.gray-text {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.footer-link {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-link:not(:last-child) {
+    margin-right: 60px;
+}
+
+.footer-link-linkedin {
+    background-image: url('./img/icons/link.svg');
+}
+
+.footer-link-instagram {
+    background-image: url('./img/icons/insta.svg');
+}
+
+.footer-link-behance {
+    background-image: url('./img/icons/behance.svg');
+}
+
+.footer-link-dribble {
+    background-image: url('./img/icons/dribble.svg');
+}
